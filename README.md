@@ -1,2 +1,64 @@
 # Barisozen2.github.io
-Personal Website
+# Brillouin Zone Visualiser
+
+A Python tool for visualising the first Brillouin zone, high-symmetry points, and electronic band structures in 3D.
+
+https://barisozen2.github.io/hcp_brillouin_zone.html
+
+*(example visualisation of HCP Brillouin zone)*
+
+## Features
+- **3D Brillouin Zone Construction** from reciprocal lattice vectors
+- **High-symmetry point paths** for common lattices (FCC, BCC, HCP, etc.)
+- **Band structure analysis**:
+  - Valence Band Maximum (VBM) / Conduction Band Minimum (CBM) detection
+  - Direct/indirect band gap classification
+  - Isoenergetic surface generation
+- **Interactive visualisation** with k-path exploration slider
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Barisozen2/Barisozen2.git
+   cd brillouin-zone-visualizer
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+## Usage
+1. Basic BZ and k-path visualisatiom   
+   ```bash
+   python BZISOvis.py lattice_input.txt Gamma X L
+   - lattice_input.txt: File containing lattice vectors (see Input Format)
+   - Gamma X L: High-symmetry points defining the k-path
+
+2. With Band Structure Data
+   ```bash
+   python BZISOvis.py lattice_input.txt Gamma X L --bands band_data.txt  
+    
+3. Generate Isoenergetic Surfaces
+   ```bash
+   python BZISOvis.py lattice_input.txt Gamma X L --bands band_data.txt --isosurfaces
+
+## Input Formats
+1. Lattice Input file
+   ```text
+   FCC
+   0.5 0.5 0
+   0.5 0 0.5
+   0 0.5 0.5
+   Gamma 0 0 0
+   X 0.5 0 0.5
+   W 0.5 0.25 0.75 
+   K 0.375 0.375 0.75
+   
+- First line: Lattice type (e.g., FCC, HCP, SC, BCC)
+- Next 3 lines: Real-space lattice vectors (3x3 matrix)
+- Remaining lines (optional): Custom high-symmetry points (Label x y z)
+
+2. Band Data File
+   ```text
+
+
+
