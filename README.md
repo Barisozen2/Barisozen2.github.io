@@ -88,11 +88,11 @@ https://barisozen2.github.io/hcp_brillouin_zone.html
 
 2. Silicon Isoenergetic Surface
    ```bash
-   python BZISOvis examples/fcc.txt Gamma X --bands examples/Si_PBE_band_data.txt --isosurfaces
+   python BZISOvis examples/fcc.txt Gamma X --bands examples/Si_GLLBSC_band_data.txt --isosurfaces
 
 3. Molybdenite Isoenergetic surface
    ```bash
-   python BZISOvis examples/fcc.txt Gamma X --bands examples/MoS2_PBE_band_data.txt --isosurfaces
+   python BZISOvis examples/fcc.txt Gamma X --bands examples/MoS2_GLLBSC_band_data.txt --isosurfaces
 
 ## Dependencies
 - Python 3.7+
