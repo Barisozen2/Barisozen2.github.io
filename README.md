@@ -59,6 +59,27 @@ https://barisozen2.github.io/hcp_brillouin_zone.html
 
 2. Band Data File
    ```text
+   # Fermi energy: 5.0
+   # Reciprocal lattice vectors
+   1.0 0.0 0.0
+   0.0 1.0 0.0
+   0.0 0.0 1.0
+   0.0 0.0 0.0 -2.3 -1.8 ...
+   0.1 0.0 0.0 -2.1 -1.6 ...
+
+- Fermi energy and reciprocal lattice vectors marked with #
+- Data lines: k_x k_y k_z eigenvalue1 eigenvalue2 ...
+
+## Output
+1. Interactive 3D plot showing:
+  - Brillouin zone (transparent cyan)
+  - High-symmetry points (labeled)
+  - VBM (red) and CBM (blue) isosurfaces (if enabled)
+2. Terminal output with band structure analysis:
+   ```text
+   Band gap: 1.23 eV (Indirect)
+   VBM: -0.5 eV at [0.0, 0.0, 0.0]
+   CBM: 0.73 eV at [0.5, 0.5, 0.5] 
 
 
 
