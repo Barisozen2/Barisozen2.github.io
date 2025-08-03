@@ -81,5 +81,22 @@ https://barisozen2.github.io/hcp_brillouin_zone.html
    VBM: -0.5 eV at [0.0, 0.0, 0.0]
    CBM: 0.73 eV at [0.5, 0.5, 0.5] 
 
+## Examples
+1. FCC Lattice
+   ```bash 
+   python BZISOvis.py examples/fcc.txt Gamma X W K L U
 
+2. Silicon Isoenergetic Surface
+   ```bash
+   python BZISOvis examples/fcc.txt Gamma X --bands examples/Si_PBE_band_data.txt --isosurfaces
 
+3. Molybdenite Isoenergetic surface
+   ```bash
+   python BZISOvis examples/fcc.txt Gamma X --bands examples/MoS2_PBE_band_data.txt --isosurfaces
+
+## Dependencies
+- Python 3.7+
+- numpy, scipy, pyvista, argparse
+
+## Licsense
+- MIT Licsence. See [LICENSE](LICENSE) for details
