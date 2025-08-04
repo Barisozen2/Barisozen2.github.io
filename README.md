@@ -5,7 +5,7 @@ A Python tool for visualising the first Brillouin zone, high-symmetry points, an
 
 https://barisozen2.github.io/hcp_brillouin_zone.html
 
-*(example visualisation of HCP Brillouin zone)*
+*example visualisation of HCP Brillouin zone (without interactive elements)* 
 
 ## Features
 - **3D Brillouin Zone Construction** from reciprocal lattice vectors
