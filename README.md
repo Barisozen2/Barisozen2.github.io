@@ -19,7 +19,9 @@ https://barisozen2.github.io/hcp_brillouin_zone.html
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Barisozen2/Barisozen2.github.io 
+   git clone https://github.com/Barisozen2/Barisozen2.github.io:
+
+   cd Barisozen2.github.io 
 
 2. Install dependencies:
    ```bash
