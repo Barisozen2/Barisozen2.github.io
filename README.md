@@ -33,8 +33,9 @@ https://barisozen2.github.io/hcp_brillouin_zone.html
 1. Basic BZ and k-path visualisation  
    ```bash
    python BZISOvis.py lattice_input.txt Gamma X L
-   - lattice_input.txt: File containing lattice vectors (see Input Format)
-   - Gamma X L: High-symmetry points defining the k-path
+
+- lattice_input.txt: File containing lattice vectors (see Input Format)
+- Gamma X L: High-symmetry points defining the k-path
 
 2. With Band Structure Data
    ```bash
