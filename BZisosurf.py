@@ -442,7 +442,7 @@ def plot_brillouin_zone(vor, high_symmetry_cart, k_path=None, user_defined_point
     Plots the first Brillouin zone using the Voronoi diagram and
     highlights high-symmetry points and k-path.
     
-    This function visualizes the Brillouin zone by rendering its faces, 
+    This function visualises the Brillouin zone by rendering its faces, 
     marking high-symmetry points, and optionally drawing a user-defined 
     k-path through reciprocal space. If a k-path is provided, a smooth 
     path and an interactive marker along it are also generated.
@@ -631,7 +631,7 @@ def read_lattice_and_sympoints(filename):
             if lattice.shape != (3, 3):
                 raise ValueError("Expected a 3x3 matrix for lattice vectors.")
             
-            # Process high-symmetry points: Initialize empty dictionary, process each line, and split into words
+            # Process high-symmetry points: Initialise empty dictionary, process each line, and split into words
             high_sym_points = {}
             for line in hs_lines:
                 parts = line.split()
@@ -654,7 +654,7 @@ def read_lattice_and_sympoints(filename):
 def parse_arguments():
     """Parse command line arguments."""
     # Create parser with description, then add required parameters (with nargs='+' meaning one or more arguments)
-    parser = argparse.ArgumentParser(description="Brillouin zone visualizer.")
+    parser = argparse.ArgumentParser(description="Brillouin zone visualiser.")
     parser.add_argument("filename", help="Path to the .txt file with lattice and symmetry points")
     parser.add_argument("kpath", nargs='+', help="List of high symmetry points for k-path (e.g., Gamma X L)")
     parser.add_argument("--bands", "-b", help="Path to band structure file (optional)", default=None)
@@ -666,15 +666,15 @@ def parse_arguments():
 
 def main():
     """
-    Main function to run the Brillouin zone visualizer.
+    Main function to run the Brillouin zone visualiser.
 
     Reads lattice vectors from a file and uses the specified k-path
-    to visualize the Brillouin zone.
+    to visualise the Brillouin zone.
     """
     # Parse command line arguments
     args = parse_arguments()
     
-    # Initialize variables
+    # Initialise variables
     kpath_labels = []
     band_data = None
     kpoints_cart = None
@@ -693,7 +693,7 @@ def main():
     # Determine which high symmetry points to use
     if not user_hs_points:
         if lattice_type not in HIGH_SYMMETRY_POINTS:
-            print(f"Error: Lattice type '{lattice_type}' not recognized")
+            print(f"Error: Lattice type '{lattice_type}' not recognised")
             return
         hs_points_frac = HIGH_SYMMETRY_POINTS[lattice_type]
     else:
@@ -751,4 +751,5 @@ def main():
     
     
 if __name__ == '__main__':
+
     main()
