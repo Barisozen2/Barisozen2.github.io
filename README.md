@@ -21,9 +21,11 @@ https://barisozen2.github.io/hcp_brillouin_zone.html
    ```bash
    git clone https://github.com/Barisozen2/Barisozen2.github.io:
 
+3. Navigate into the repository:
+   ```bash
    cd Barisozen2.github.io 
 
-2. Install dependencies:
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
 
