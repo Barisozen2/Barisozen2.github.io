@@ -30,7 +30,7 @@ https://barisozen2.github.io/hcp_brillouin_zone.html
    pip install -r requirements.txt
 
 ## Usage
-1. Basic BZ and k-path visualisatiom   
+1. Basic BZ and k-path visualisation  
    ```bash
    python BZISOvis.py lattice_input.txt Gamma X L
    - lattice_input.txt: File containing lattice vectors (see Input Format)
