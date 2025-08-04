@@ -20,7 +20,7 @@ https://barisozen2.github.io/hcp_brillouin_zone.html
 1. Clone the repository:
    ```bash
    git clone https://github.com/Barisozen2/Barisozen2.git
-   cd brillouin-zone-visualizer
+   
 
 2. Install dependencies:
    ```bash
