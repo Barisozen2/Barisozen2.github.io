@@ -1,7 +1,7 @@
 # Barisozen2.github.io
 # Brillouin Zone Isosurface Visualiser BZISOsurf
 
-A Python tool for visualising the first Brillouin zone, high-symmetry points, and electronic band structures in 3D.
+A Python tool for visualising the first Brillouin zone, high-symmetry points, high-symmetry point paths and isoenergetic surfaces of band extrema in 3D.
 
 https://barisozen2.github.io/hcp_brillouin_zone.html
 
