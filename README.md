@@ -1,11 +1,19 @@
 # Barisozen2.github.io
-# Brillouin Zone Visualiser
+# Brillouin Zone Isosurface Visualiser BZISOsurf
 
 A Python tool for visualising the first Brillouin zone, high-symmetry points, and electronic band structures in 3D.
 
 https://barisozen2.github.io/hcp_brillouin_zone.html
 
 *example visualisation of HCP Brillouin zone (without interactive elements)* 
+
+https://barisozen2.github.io/Si_fcc_BZ_isosurf(GLLB-SC).html
+
+*example visualisation of FCC Brillouin zone and Silicon isoenergetic surface of band extrema (without interactive elements)*
+
+https://barisozen2.github.io/MoS2_hcp_BZ_isosurf(GLLB-SC).html
+
+*example visualisation of HCP Brillouin zone and Molybdenite isoenergetic surface of band extrema (without interactive elements)*
 
 ## Features
 - **3D Brillouin Zone Construction** from reciprocal lattice vectors
